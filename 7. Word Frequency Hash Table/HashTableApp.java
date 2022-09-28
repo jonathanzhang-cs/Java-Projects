@@ -1,8 +1,3 @@
-/*
-THIS CODE WAS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING CODE WRITTEN BY 
-OTHER STUDENTS OR COPIED FROM ONLINE RESOURCES. Jonathan Zhang
-*/
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
