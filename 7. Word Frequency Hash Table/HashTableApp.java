@@ -6,11 +6,9 @@ public class HashTableApp {
     // Builds and returns a hash table of frequencies from the given input file
     public static HashSeparateChaining getMap(Scanner in){
         HashSeparateChaining map = new HashSeparateChaining();
-        int idx = 1; //test
         while(in.hasNext()){
             String word = in.next();
             word = word.toLowerCase();
-            System.out.println((idx++) + " => " + word); //test
             if (map.get(word) != null) map.put(word, map.get(word) + 1);
             else                       map.put(word, 1); 
         }
