@@ -27,7 +27,7 @@ public class HashTableApp {
         try{
             fileReader = new Scanner(input, "UTF-8"); 
         } catch (FileNotFoundException e) {
-            System.out.println("File was not found.  Check the file name and try again.");
+            System.out.println("File was not found. Check the file name and try again.");
             System.exit(-2);
         }
 
