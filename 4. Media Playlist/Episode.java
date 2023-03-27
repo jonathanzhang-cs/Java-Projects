@@ -9,6 +9,7 @@ class Episode
     public Episode(String title, double length, Episode next, Episode prev)
     {
         this.title = title;
+        
         this.length = length;
         this.next = next;
         this.prev = prev;
