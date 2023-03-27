@@ -8,6 +8,7 @@ public class HashSeparateChaining{
 
     Node[] hashTable;
     int arraySize;
+    
     int tableSize;
 
     public HashSeparateChaining(){
